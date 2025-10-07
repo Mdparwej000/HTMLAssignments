@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Data Table Example</title>
+</head>
+<body>
+  <header>
+    <h1 style="text-align:center; margin:18px 0;">Data Table Example</h1>
+    <p style="text-align:center; margin:0 0 10px 0;">
+      <a href="index.html">← Back to Home</a>
+    </p>
+    <hr>
+  </header>
+
+  <main style="max-width:900px; margin:18px auto; padding:0 12px;">
+    <section>
+      <h2>Student Marks Table</h2>
+      <p>This is a simple tabular layout showing names and marks. The structure is semantic and uses only HTML.</p>
+
+      <table border="1" cellpadding="8" cellspacing="0" width="100%">
+        <caption style="caption-side:top; text-align:left; font-weight:bold; padding:8px 0;">
+          Semester 1 — Results
+        </caption>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Student</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Rahul</td>
+            <td>Mathematics</td>
+            <td>78</td>
+            <td>B+</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sana</td>
+            <td>Physics</td>
+            <td>85</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Vikram</td>
+            <td>Chemistry</td>
+            <td>69</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Priya</td>
+            <td>Biology</td>
+            <td>92</td>
+            <td>A+</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5" style="text-align:left; padding-top:10px;">
+              Note: Grades are illustrative only.
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <p style="margin-top:12px;">
+        Want to change the rows? Edit the `<tbody>` rows — this is plain HTML so safe to modify.
+      </p>
+    </section>
+  </main>
+
+  <footer style="text-align:center; margin:26px 0;">
+    <small>Created by Md Parwej — Assignment demo.</small>
+  </footer>
+</body>
+</html>
